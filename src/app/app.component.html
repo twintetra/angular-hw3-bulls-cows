@@ -1,0 +1,10 @@
+<div class="container">
+  <h2 class="title">Игра быки и коровы</h2>
+  <p class="line">🐄🐂🐄🐂🐄🐂🐄🐂🐄🐂🐄🐂🐄🐂🐄🐂🐄🐂🐄🐂🐄🐂🐄</p>
+  <ul class="list-steps">
+    <li *ngFor="let step of steps">{{step}}</li>
+  </ul>
+  <p class="comment">{{comment}}</p>
+  <app-input (inputValue)="valueFromUser($event)" [blockClick]="disable"></app-input>
+  <button class="new-game-btn" (click)="resetGame()">Начать игру заново</button>
+</div>

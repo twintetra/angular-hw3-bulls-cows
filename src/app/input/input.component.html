@@ -1,0 +1,5 @@
+<label>
+  <input class="input-value" type="text" [disabled]="blockClick" [value]="value" (keydown.enter)="checkValue()" (input)="compValue($event)">
+  <button class="submit-btn" (click)="checkValue()" [disabled]="blockClick">Сделать ход</button>
+</label>
+<p class="error">{{error}}</p>

@@ -1,0 +1,27 @@
+.input-value {
+  height: 25px;
+  border-radius: 5px;
+  border: 3px solid mediumpurple;
+  font-size: 22px;
+  line-height: 22px;
+  width: 130px;
+  margin: 10px;
+}
+
+.submit-btn {
+  height: 35px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  background: mediumpurple;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.error {
+  text-align: center;
+  font-size: 24px;
+  color: darkred;
+}
