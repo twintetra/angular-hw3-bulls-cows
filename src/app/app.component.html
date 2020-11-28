@@ -5,6 +5,7 @@
     <li *ngFor="let step of appService.getSteps()">{{step}}</li>
   </ul>
   <p class="comment">{{appService.getComment()}}</p>
+  <p></p>
   <app-input (inputValue)="valueFromUser($event)" [blockClick]="appService.getDisable()"></app-input>
   <button class="new-game-btn" (click)="appService.resetGame()">Начать игру заново</button>
 </div>

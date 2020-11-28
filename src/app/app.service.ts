@@ -72,8 +72,8 @@ export class AppService {
     this.steps = [];
   }
 
-  pushSteps() {
-    this.steps.push(`Ход ${this.currentStep}: быков ${this.bulls}, коров: ${this.cows}`);
+  pushSteps(value) {
+    this.steps.push(`Ход ${this.currentStep}, веденое число ${value}: быков ${this.bulls}, коров: ${this.cows}`);
   }
 
   setBulls() {

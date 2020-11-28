@@ -22,7 +22,7 @@ export class AppComponent  {
     this.appService.resetBulls();
     this.appService.resetCows();
     this.checkBullCows();
-    this.appService.pushSteps();
+    this.appService.pushSteps(this.value);
     this.appService.checkWin();
   }
 
